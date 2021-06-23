@@ -9,9 +9,8 @@
 
 clc
 
-%Grafica
 x=-5:0.1:-2;
-y=16-(x.^2)/4-x;
+y=(16-(x.^2))/4-x;
 % Dibujar grafica
 plot(x,y)
 grid on; 
